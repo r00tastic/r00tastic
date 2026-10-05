@@ -18,7 +18,9 @@
 
 ## `>` whoami
 
-Multi-domain engineer. Core track: **cybersecurity, digital forensics, penetration testing, cyber threat intelligence (CTI)**. Hardware side: **aerospace & UAV systems**. Console side: **PlayStation / Nintendo** app development. Daily workflow operates **LLMs** as part of the loadout.
+I'm a **security researcher and systems programmer** specializing in **cybersecurity, digital forensics, penetration testing**, and **cyber threat intelligence (CTI)**. I build production tools in **Rust** for Windows — from OCR-based automation to low-level disk forensics. On the hardware side, I work with **aerospace & UAV systems** (PX4, ArduPilot, MAVLink). I also develop **PlayStation & Nintendo** homebrew applications. My daily workflow integrates **LLMs** (Claude, GPT-4) as force multipliers for reverse engineering and code analysis.
+
+**Key areas:** Rust systems programming · Win32 API · binary analysis · SMART disk diagnostics · screen OCR automation · UAV flight controllers · game console development
 
 <!-- ===================  STAT TILES  =================== -->
 
@@ -53,6 +55,12 @@ Multi-domain engineer. Core track: **cybersecurity, digital forensics, penetrati
 <!-- ===================  FEATURED  =================== -->
 
 ## ⚡ Deployed Operations
+
+### [Allow Clicker](https://github.com/r00tastic/allow_clicker) — OCR-based auto-clicker for Windows
+Rust/Slint desktop tool that uses Windows.Media.Ocr to detect on-screen text and click automatically. Features drag-to-select screen regions, multi-keyword matching, dry-run mode, and F8 global hotkey.
+
+### [HDD Doktor](https://github.com/r00tastic/hdd_doktor) — HDD diagnostics & bad-sector repair
+Professional Rust/egui tool for SMART attribute monitoring, surface scanning, zero-fill bad-sector repair, secure erase, and trend analysis with PDF/JSON reports.
 
 <div align="center">
 
